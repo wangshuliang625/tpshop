@@ -56,7 +56,13 @@ class Base:
             return False  # 代表元素不存在
 
     # 回到首页
+    def base_index(self):
+        pass
 
     # 切换frame表单
+    def base_switch_frame(self):
+        pass
 
     # 回到默认目录方法
+    def base_default_content(self):
+        pass
