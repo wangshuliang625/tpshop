@@ -1,6 +1,6 @@
 import time
 from selenium.webdriver.support.wait import WebDriverWait
-
+import page
 from base.get_logger import GetLogger
 
 log = GetLogger().get_logger()
@@ -57,12 +57,12 @@ class Base:
 
     # 回到首页
     def base_index(self):
-        pass
+        self.driver.get(page.URL)
 
     # 切换frame表单
-    def base_switch_frame(self):
-        pass
+    def base_switch_frame(self, name):
+        self.driver.switch_to.frame(name)
 
     # 回到默认目录方法
     def base_default_content(self):
-        pass
+        self.driver.switch_to.default_content()
