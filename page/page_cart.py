@@ -13,7 +13,7 @@ class PageCart(Base):
         self.base_index()
 
     # 输入搜索内容
-    def page_input_search(self, value='小米'):
+    def page_input_search(self, value='小米手机'):
         self.base_input(page.cart_search, value)
 
     # 点击搜索按钮
@@ -22,18 +22,18 @@ class PageCart(Base):
 
     # 点击添加购物车 跳转到商品详情页
     def page_click_add_cart_info(self):
-        self.page_click_add_cart_info()
+        self.base_click(page.cart_add_info)
 
     # 点击添加购物车
     def page_click_add_cart(self):
-        self.page_click_add_cart()
+        self.base_click(page.cart_add)
 
     # 获取添加结果
     def page_get_text(self):
         # 获取frame表单
         self.base_switch_frame(self.base_find(page.cart_frame_id))
         # 获取结果并返回
-        self.base_get_text(page.cart_add_result)
+        return self.base_get_text(page.cart_add_result)
 
     # 关闭窗口
     def page_close_window(self):
