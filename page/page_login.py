@@ -57,7 +57,22 @@ class PageLogin(Base):
 
     # 组合业务方法-->登录业务直接调用
     def page_login(self, username, pwd, verify_code):
+        log.info("[page_loging] 正在执行登录操作, 用户名：{} 密码：{}, 验证码:{}".format(username, pwd, verify_code))
         self.page_input_username(username)
         self.page_input_pwd(pwd)
         self.page_input_verify_code(verify_code)
+        self.page_click_login_btn()
+
+    # 组合登录业务方法 给(购物车模块、订单模块、支付模块)依赖登录使用
+    def page_login_success(self, username="13121134105", pwd="123456", verify_code="8888"):
+        # 点击登录连接
+        self.page_click_login_link()
+        log.info("[page_loging] 正在执行登录操作, 用户名：{} 密码：{}, 验证码:{}".format(username, pwd, verify_code))
+        # 调用 输入用户名
+        self.page_input_username(username)
+        # 调用 输入密码
+        self.page_input_pwd(pwd)
+        # 调用 输入验证码
+        self.page_input_verify_code(verify_code)
+        # 调用 点击登录
         self.page_click_login_btn()

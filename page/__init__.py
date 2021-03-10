@@ -30,3 +30,39 @@ login_err_ok_btn = By.CSS_SELECTOR, ".layui-layer-btn0"
 
 # 安全退出
 login_logout = By.PARTIAL_LINK_TEXT, "安全退出"
+
+"""
+以下为购物车模块涉及元素 配置信息
+"""
+# 搜索框
+cart_search = By.CSS_SELECTOR, "#q"
+# 搜索按钮
+cart_search_btn = By.CSS_SELECTOR, ".ecsc-search-button"
+# 添加购物车 -->跳转到详情页面
+cart_add_info = By.CSS_SELECTOR, ".p-btn>a"
+# 添加购物车 -->
+cart_add = By.CSS_SELECTOR, "#join_cart"
+# iframe表单名称 name
+cart_frame_name = "layui-layer-iframe1"
+# id属性 定义元素
+cart_frame_id = By.CSS_SELECTOR, "#layui-layer-iframe1"
+# 获取添加购物车结果
+cart_add_result = By.CSS_SELECTOR, ".conect-title>span"
+# 关闭提示窗口
+cart_close_window = By.CSS_SELECTOR, ".layui-layer-close"
+
+"""
+以下为订单模块涉及元素 配置信息
+"""
+# 我的购物车
+order_my_cart = By.CSS_SELECTOR, ".c-n"
+# 全选
+order_all = By.CSS_SELECTOR, ".checkCartAll"
+# 去结算
+order_account = By.CSS_SELECTOR, ".gwc-qjs"
+# 收货人 备用
+order_person = By.CSS_SELECTOR, ".consignee>b"
+# 提交订单
+order_submit = By.CSS_SELECTOR, ".Sub-orders"
+# 获取提交订单结果
+order_submit_result = By.CSS_SELECTOR, ".erhuh>h3"
