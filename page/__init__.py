@@ -50,3 +50,19 @@ cart_frame_id = By.CSS_SELECTOR, "#layui-layer-iframe1"
 cart_add_result = By.CSS_SELECTOR, ".conect-title>span"
 # 关闭提示窗口
 cart_close_window = By.CSS_SELECTOR, ".layui-layer-close"
+
+"""
+以下为订单模块涉及元素 配置信息
+"""
+# 我的购物车
+order_my_cart = By.CSS_SELECTOR, ".c-n"
+# 全选
+order_all = By.CSS_SELECTOR, ".checkCartAll"
+# 去结算
+order_account = By.CSS_SELECTOR, ".gwc-qjs"
+# 收货人 备用
+order_person = By.CSS_SELECTOR, ".consignee>b"
+# 提交订单
+order_submit = By.CSS_SELECTOR, ".Sub-orders"
+# 获取提交订单结果
+order_submit_result = By.CSS_SELECTOR, ".erhuh>h3"
