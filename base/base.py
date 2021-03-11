@@ -66,3 +66,17 @@ class Base:
     # 回到默认目录方法
     def base_default_content(self):
         self.driver.switch_to.default_content()
+
+    # 切换窗口方法
+    def base_switch_to_window(self, title):
+        self.driver.switch_to.window(self.base_get_title_handle(title))
+
+    # 获取指定title页面的handle方法
+    def base_get_title_handle(self, title):
+        # 获取当前页面所有的handle
+        for handle in self.driver.window_handles:
+            # 切换handle
+            self.driver.switch_to.window(handle)
+            log.info("判断当前页面title:{} 是否等于指定的title:{}".format(self.driver.title, title))
+            if self.driver.title == title:
+                return handle
