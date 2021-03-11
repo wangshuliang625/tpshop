@@ -4,7 +4,7 @@
 # @File : read_txt.py
 
 def read_txt(filename):
-    filepath = "../data/" + filename
+    filepath = "./data/" + filename
     with open(filepath, "r", encoding="utf-8") as f:
         # print(f.readlines())
         return f.readlines()

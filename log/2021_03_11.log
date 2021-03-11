@@ -33,3 +33,332 @@
 2021-03-11 14:01:25,720 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.erhuh>h3'),默认超时时间为:30
 2021-03-11 14:01:25,762 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.erhuh>h3')获取文本
 2021-03-11 14:01:25,762 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.erhuh>h3'),默认超时时间为:30
+2021-03-11 15:15:00,816 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="fb743767ec72ded845224fce25532436")>
+2021-03-11 15:15:00,816 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="fb743767ec72ded845224fce25532436")>
+2021-03-11 15:15:00,816 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:15:00,816 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:15:00,817 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:15:10,235 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:15:10,235 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:15:10,236 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:15:10,256 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="fb743767ec72ded845224fce25532436", element="70428378-84f4-43ce-a2ed-a49134128342")>清空
+2021-03-11 15:15:10,364 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:15:10,364 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:15:10,384 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="fb743767ec72ded845224fce25532436", element="276785d6-dd8b-4119-ae2c-ac6d9f9b643c")>清空
+2021-03-11 15:15:10,511 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:15:10,511 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:15:10,525 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="fb743767ec72ded845224fce25532436", element="5c023799-ed6a-443f-a2b3-944078543abe")>清空
+2021-03-11 15:15:10,639 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:15:10,639 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:15:10,639 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:15:18,621 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#q'),默认超时时间为:30
+2021-03-11 15:15:18,646 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="fb743767ec72ded845224fce25532436", element="86e7d9ac-7028-4daa-a337-68010bf10d35")>清空
+2021-03-11 15:15:18,772 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ecsc-search-button')实行点击事件
+2021-03-11 15:15:18,773 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ecsc-search-button'),默认超时时间为:30
+2021-03-11 15:15:56,040 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="57bd905f85eb9f39d1e825c355b41cab")>
+2021-03-11 15:15:56,040 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:15:56,040 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:15:56,040 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:16:05,305 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:16:05,306 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:16:05,306 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:16:05,327 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="57bd905f85eb9f39d1e825c355b41cab", element="74903a13-b0dd-4b7b-adf8-59f6e90775e2")>清空
+2021-03-11 15:16:05,436 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:16:05,436 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:16:05,445 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="57bd905f85eb9f39d1e825c355b41cab", element="00a0685c-8e15-42c0-9ce6-90e5c14cd5a3")>清空
+2021-03-11 15:16:05,517 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:16:05,518 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:16:05,526 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="57bd905f85eb9f39d1e825c355b41cab", element="622f8e8d-f287-4932-884f-f42b3d5a3787")>清空
+2021-03-11 15:16:05,633 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:16:05,634 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:16:05,634 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:16:05,671 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="57bd905f85eb9f39d1e825c355b41cab")>
+2021-03-11 15:16:13,398 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.c-n')实行点击事件
+2021-03-11 15:16:13,398 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.c-n'),默认超时时间为:30
+2021-03-11 15:16:16,764 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.checkCartAll'),默认超时时间为:30
+2021-03-11 15:16:46,897 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:16:47,448 ERROR [root] [test03_order.py (test_order:45] - Message: 
+
+2021-03-11 15:16:54,274 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="00f5539151675de4b02d7bed42da72aa")>
+2021-03-11 15:16:54,274 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:16:54,274 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:16:54,274 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:17:03,541 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:17:03,542 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:17:03,542 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:17:03,563 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="00f5539151675de4b02d7bed42da72aa", element="c5a2b350-3393-438d-9f5b-56004ab504da")>清空
+2021-03-11 15:17:03,658 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:17:03,658 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:17:03,666 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="00f5539151675de4b02d7bed42da72aa", element="87274182-19f4-4d84-92bd-a2b990e60db8")>清空
+2021-03-11 15:17:03,734 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:17:03,734 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:17:03,742 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="00f5539151675de4b02d7bed42da72aa", element="d19eedce-b7e8-400d-b01e-40f75461721d")>清空
+2021-03-11 15:17:03,810 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:17:03,810 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:17:03,810 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:17:03,845 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="00f5539151675de4b02d7bed42da72aa")>
+2021-03-11 15:17:11,561 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '我的订单')实行点击事件
+2021-03-11 15:17:11,561 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '我的订单'),默认超时时间为:30
+2021-03-11 15:17:11,645 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的账户-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:我的订单
+2021-03-11 15:17:14,891 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的订单 是否等于指定的title:我的订单
+2021-03-11 15:17:14,899 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ps_lj')实行点击事件
+2021-03-11 15:17:14,899 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ps_lj'),默认超时时间为:30
+2021-03-11 15:17:44,986 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:17:45,396 ERROR [root] [test04_pay.py (test_pay:46] - Message: 
+
+2021-03-11 15:21:58,239 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="dc39241d91642fb6d7cc7910d7a4dc1d")>
+2021-03-11 15:21:58,239 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:21:58,240 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:21:58,240 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:22:07,673 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名：13800138006 密码：123456, 验证码:8888
+2021-03-11 15:22:07,674 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13800138006
+2021-03-11 15:22:07,674 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:22:07,694 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="3b5c5de6-b353-4583-ad79-60125948b2c5")>清空
+2021-03-11 15:22:07,830 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:22:07,830 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:22:07,851 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="29f3015d-cdc6-46d5-bb58-cacbfa85f82c")>清空
+2021-03-11 15:22:07,971 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:22:07,971 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:22:07,990 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="27eb6d2e-11a8-4b2a-9589-2feed6c22fdd")>清空
+2021-03-11 15:22:08,115 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:22:08,115 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:22:08,115 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:22:09,209 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:22:09,209 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:22:10,864 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:22:10,864 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:22:10,987 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名： 密码：123456, 验证码:8888
+2021-03-11 15:22:10,987 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:
+2021-03-11 15:22:10,988 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:22:11,006 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="3b5c5de6-b353-4583-ad79-60125948b2c5")>清空
+2021-03-11 15:22:11,052 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:22:11,052 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:22:11,057 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="29f3015d-cdc6-46d5-bb58-cacbfa85f82c")>清空
+2021-03-11 15:22:11,099 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:22:11,100 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:22:11,104 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="27eb6d2e-11a8-4b2a-9589-2feed6c22fdd")>清空
+2021-03-11 15:22:11,141 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:22:11,142 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:22:11,142 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:22:13,757 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:22:13,757 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:22:13,789 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:22:13,790 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:22:13,856 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名：13800138006 密码：, 验证码:8888
+2021-03-11 15:22:13,856 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13800138006
+2021-03-11 15:22:13,856 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:22:13,866 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="3b5c5de6-b353-4583-ad79-60125948b2c5")>清空
+2021-03-11 15:22:13,955 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:
+2021-03-11 15:22:13,955 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:22:13,967 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="29f3015d-cdc6-46d5-bb58-cacbfa85f82c")>清空
+2021-03-11 15:22:14,053 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:22:14,054 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:22:14,070 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="dc39241d91642fb6d7cc7910d7a4dc1d", element="27eb6d2e-11a8-4b2a-9589-2feed6c22fdd")>清空
+2021-03-11 15:22:14,153 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:22:14,153 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:22:14,153 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:22:15,212 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:22:15,213 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:22:15,247 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:22:15,247 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:22:22,521 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="90b403274955c04f6945e18727cbbff1")>
+2021-03-11 15:22:22,522 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="90b403274955c04f6945e18727cbbff1")>
+2021-03-11 15:22:22,522 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:22:22,522 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:22:22,522 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:22:31,705 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:22:31,705 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:22:31,706 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:22:31,715 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="90b403274955c04f6945e18727cbbff1", element="f312279a-9359-4120-9c8f-a0952c69235b")>清空
+2021-03-11 15:22:31,770 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:22:31,770 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:22:31,777 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="90b403274955c04f6945e18727cbbff1", element="323a4f54-1f9b-48bb-8ea4-40c7b9dc6c28")>清空
+2021-03-11 15:22:31,838 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:22:31,838 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:22:31,848 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="90b403274955c04f6945e18727cbbff1", element="f4e6346e-83d1-48c5-9be7-5a32cbf771ac")>清空
+2021-03-11 15:22:31,907 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:22:31,907 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:22:31,907 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:22:39,548 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#q'),默认超时时间为:30
+2021-03-11 15:22:39,559 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="90b403274955c04f6945e18727cbbff1", element="72a5bffc-ce57-42a9-a376-7f13e235232a")>清空
+2021-03-11 15:22:39,626 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ecsc-search-button')实行点击事件
+2021-03-11 15:22:39,626 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ecsc-search-button'),默认超时时间为:30
+2021-03-11 15:23:16,697 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="4b805d06d52e53b7cd54c4c9ad5b734d")>
+2021-03-11 15:23:16,697 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:23:16,697 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:23:16,697 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:23:25,996 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:23:25,997 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:23:25,997 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:23:26,010 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4b805d06d52e53b7cd54c4c9ad5b734d", element="659ce42e-29c4-4f25-86ed-14b348738ef2")>清空
+2021-03-11 15:23:26,088 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:23:26,088 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:23:26,095 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4b805d06d52e53b7cd54c4c9ad5b734d", element="2ebda5d3-8406-4e56-b4aa-e8aacb67b624")>清空
+2021-03-11 15:23:26,161 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:23:26,161 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:23:26,170 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4b805d06d52e53b7cd54c4c9ad5b734d", element="a10ad2bd-1122-45bb-aba4-dc710d782ac9")>清空
+2021-03-11 15:23:26,233 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:23:26,233 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:23:26,233 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:23:26,269 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="4b805d06d52e53b7cd54c4c9ad5b734d")>
+2021-03-11 15:23:33,962 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.c-n')实行点击事件
+2021-03-11 15:23:33,962 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.c-n'),默认超时时间为:30
+2021-03-11 15:23:37,288 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.checkCartAll'),默认超时时间为:30
+2021-03-11 15:24:07,817 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:24:08,335 ERROR [root] [test03_order.py (test_order:45] - Message: 
+
+2021-03-11 15:24:15,562 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="4fe2399e524e5c1545ab4525f375fe3c")>
+2021-03-11 15:24:15,562 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:24:15,563 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:24:15,563 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:24:24,275 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:24:24,275 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:24:24,276 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:24:24,289 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4fe2399e524e5c1545ab4525f375fe3c", element="bcd793e2-899d-4846-ba16-196d117d8337")>清空
+2021-03-11 15:24:24,395 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:24:24,395 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:24:24,403 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4fe2399e524e5c1545ab4525f375fe3c", element="7e767860-365b-49f4-8fd6-7e1da5d9a791")>清空
+2021-03-11 15:24:24,467 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:24:24,467 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:24:24,476 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="4fe2399e524e5c1545ab4525f375fe3c", element="7a7fe74c-8469-41a9-b737-c6f179e199da")>清空
+2021-03-11 15:24:24,569 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:24:24,570 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:24:24,570 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:24:24,605 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="4fe2399e524e5c1545ab4525f375fe3c")>
+2021-03-11 15:24:32,321 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '我的订单')实行点击事件
+2021-03-11 15:24:32,322 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '我的订单'),默认超时时间为:30
+2021-03-11 15:24:32,404 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的账户-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:我的订单
+2021-03-11 15:24:35,689 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的订单 是否等于指定的title:我的订单
+2021-03-11 15:24:35,694 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ps_lj')实行点击事件
+2021-03-11 15:24:35,694 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ps_lj'),默认超时时间为:30
+2021-03-11 15:25:05,725 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:25:06,133 ERROR [root] [test04_pay.py (test_pay:46] - Message: 
+
+2021-03-11 15:32:41,274 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="b8e98b084c5d68cbc9d98d81a8bcff3d")>
+2021-03-11 15:32:41,274 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:32:41,274 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:32:41,274 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:32:50,701 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名：13800138006 密码：123456, 验证码:8888
+2021-03-11 15:32:50,702 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13800138006
+2021-03-11 15:32:50,702 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:32:50,720 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="3f892294-f50c-4609-bc89-7a9ed81f1d8b")>清空
+2021-03-11 15:32:50,832 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:32:50,833 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:32:50,841 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="69c46550-540d-4a1d-8eb1-2854f3668f64")>清空
+2021-03-11 15:32:50,915 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:32:50,915 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:32:50,925 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="621f5ea9-5e0f-40e2-a682-8c6a4f84228f")>清空
+2021-03-11 15:32:51,037 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:32:51,037 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:32:51,037 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:32:52,078 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:32:52,078 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:32:53,716 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:32:53,716 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:32:53,790 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名： 密码：123456, 验证码:8888
+2021-03-11 15:32:53,790 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:
+2021-03-11 15:32:53,790 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:32:53,804 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="3f892294-f50c-4609-bc89-7a9ed81f1d8b")>清空
+2021-03-11 15:32:53,862 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:32:53,863 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:32:53,868 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="69c46550-540d-4a1d-8eb1-2854f3668f64")>清空
+2021-03-11 15:32:53,915 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:32:53,915 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:32:53,920 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="621f5ea9-5e0f-40e2-a682-8c6a4f84228f")>清空
+2021-03-11 15:32:53,969 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:32:53,969 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:32:53,970 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:32:56,674 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:32:56,675 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:32:56,722 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:32:56,722 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:32:56,811 INFO [root] [page_login.py (page_login:60] - [page_loging] 正在执行登录操作, 用户名：13800138006 密码：, 验证码:8888
+2021-03-11 15:32:56,811 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13800138006
+2021-03-11 15:32:56,811 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:32:56,823 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="3f892294-f50c-4609-bc89-7a9ed81f1d8b")>清空
+2021-03-11 15:32:56,921 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:
+2021-03-11 15:32:56,921 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:32:56,928 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="69c46550-540d-4a1d-8eb1-2854f3668f64")>清空
+2021-03-11 15:32:56,969 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:32:56,969 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:32:56,974 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="b8e98b084c5d68cbc9d98d81a8bcff3d", element="621f5ea9-5e0f-40e2-a682-8c6a4f84228f")>清空
+2021-03-11 15:32:57,018 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:32:57,018 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:32:57,018 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:32:58,050 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.layui-layer-content')获取文本
+2021-03-11 15:32:58,051 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-content'),默认超时时间为:30
+2021-03-11 15:32:58,091 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.layui-layer-btn0')实行点击事件
+2021-03-11 15:32:58,092 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.layui-layer-btn0'),默认超时时间为:30
+2021-03-11 15:33:05,443 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="7ca51a1b9b47d8dd80561d54e1a84ac8")>
+2021-03-11 15:33:05,443 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="7ca51a1b9b47d8dd80561d54e1a84ac8")>
+2021-03-11 15:33:05,443 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:33:05,444 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:33:05,444 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:33:14,761 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:33:14,761 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:33:14,761 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:33:14,771 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="7ca51a1b9b47d8dd80561d54e1a84ac8", element="454e4765-ba5a-4561-b3f2-c21332bfc81e")>清空
+2021-03-11 15:33:14,827 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:33:14,827 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:33:14,835 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="7ca51a1b9b47d8dd80561d54e1a84ac8", element="5e6fcd9b-0def-4698-9860-20d5c196975f")>清空
+2021-03-11 15:33:14,896 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:33:14,896 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:33:14,905 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="7ca51a1b9b47d8dd80561d54e1a84ac8", element="5890d7c9-559d-4013-87df-6d249b42740d")>清空
+2021-03-11 15:33:14,959 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:33:14,959 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:33:14,959 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:33:22,557 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#q'),默认超时时间为:30
+2021-03-11 15:33:22,567 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="7ca51a1b9b47d8dd80561d54e1a84ac8", element="d913cd96-da96-40ec-919d-2384fd4c40ed")>清空
+2021-03-11 15:33:22,649 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ecsc-search-button')实行点击事件
+2021-03-11 15:33:22,649 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ecsc-search-button'),默认超时时间为:30
+2021-03-11 15:34:00,443 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="d5b24d11de32e52c09b1d57409a8ef2f")>
+2021-03-11 15:34:00,443 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:34:00,444 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:34:00,444 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:34:09,667 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:34:09,668 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:34:09,668 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:34:09,690 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="d5b24d11de32e52c09b1d57409a8ef2f", element="84fb1c55-da47-4414-aa0a-257e7e80b3ab")>清空
+2021-03-11 15:34:09,827 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:34:09,827 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:34:09,848 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="d5b24d11de32e52c09b1d57409a8ef2f", element="7bd6cab1-e180-47c2-b403-ed6af8ae40eb")>清空
+2021-03-11 15:34:09,984 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:34:09,985 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:34:10,008 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="d5b24d11de32e52c09b1d57409a8ef2f", element="b84f4ee7-af2e-4fc3-9b61-8a78127dfd17")>清空
+2021-03-11 15:34:10,132 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:34:10,133 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:34:10,133 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:34:10,216 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="d5b24d11de32e52c09b1d57409a8ef2f")>
+2021-03-11 15:34:17,970 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.c-n')实行点击事件
+2021-03-11 15:34:17,971 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.c-n'),默认超时时间为:30
+2021-03-11 15:34:21,541 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.checkCartAll'),默认超时时间为:30
+2021-03-11 15:34:51,561 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:34:52,491 ERROR [root] [test03_order.py (test_order:45] - Message: 
+
+2021-03-11 15:35:01,402 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="abfbb0d9696decfdd4ce393fd7b919d6")>
+2021-03-11 15:35:01,402 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 15:35:01,402 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 15:35:01,402 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 15:35:10,769 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 15:35:10,770 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 15:35:10,770 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 15:35:10,791 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="abfbb0d9696decfdd4ce393fd7b919d6", element="4366deee-7907-47f7-8093-c5c012767b8b")>清空
+2021-03-11 15:35:10,902 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 15:35:10,902 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 15:35:10,910 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="abfbb0d9696decfdd4ce393fd7b919d6", element="7f2daa62-ed7f-4d45-b5b2-42f383bcade4")>清空
+2021-03-11 15:35:11,009 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 15:35:11,010 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 15:35:11,022 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="abfbb0d9696decfdd4ce393fd7b919d6", element="97b72129-a7c5-4a60-88ac-2a308595b511")>清空
+2021-03-11 15:35:11,093 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 15:35:11,093 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 15:35:11,093 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 15:35:11,129 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="abfbb0d9696decfdd4ce393fd7b919d6")>
+2021-03-11 15:35:18,858 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '我的订单')实行点击事件
+2021-03-11 15:35:18,858 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '我的订单'),默认超时时间为:30
+2021-03-11 15:35:18,944 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的账户-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:我的订单
+2021-03-11 15:35:22,182 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的订单 是否等于指定的title:我的订单
+2021-03-11 15:35:22,190 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ps_lj')实行点击事件
+2021-03-11 15:35:22,190 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ps_lj'),默认超时时间为:30
+2021-03-11 15:35:52,284 INFO [root] [base.py (base_get_image:45] - [base]:断言出错,正在截图
+2021-03-11 15:35:52,735 ERROR [root] [test04_pay.py (test_pay:46] - Message: 
+

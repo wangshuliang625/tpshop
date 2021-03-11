@@ -22,7 +22,7 @@ class GetLogger:
             # 获取处理器 控制台
             sh = logging.StreamHandler()
             # 获取处理文件
-            th = logging.handlers.TimedRotatingFileHandler(filename="../log/{}.log".format(time.strftime("%Y_%m_%d")),
+            th = logging.handlers.TimedRotatingFileHandler(filename="./log/{}.log".format(time.strftime("%Y_%m_%d")),
                                                            when="midnight",
                                                            interval=1,
                                                            backupCount=30,
