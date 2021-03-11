@@ -1,0 +1,35 @@
+2021-03-11 14:00:48,447 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="8b0c66d373f5103bf444d293dc47c488")>
+2021-03-11 14:00:48,448 INFO [root] [page_login.py (page_click_login_link:15] - [page_login]:点击登录链接
+2021-03-11 14:00:48,448 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '登录')实行点击事件
+2021-03-11 14:00:48,448 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '登录'),默认超时时间为:30
+2021-03-11 14:00:57,867 INFO [root] [page_login.py (page_login_success:70] - [page_loging] 正在执行登录操作, 用户名：13121134105 密码：123456, 验证码:8888
+2021-03-11 14:00:57,867 INFO [root] [page_login.py (page_input_username:20] - [page_login]:输入的用户名是:13121134105
+2021-03-11 14:00:57,868 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#username'),默认超时时间为:30
+2021-03-11 14:00:57,884 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="8b0c66d373f5103bf444d293dc47c488", element="b53acb55-7a8b-4644-abe8-7d760c84f5d9")>清空
+2021-03-11 14:00:57,983 INFO [root] [page_login.py (page_input_pwd:25] - [page_login]:输入的密码是:123456
+2021-03-11 14:00:57,983 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#password'),默认超时时间为:30
+2021-03-11 14:00:57,991 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="8b0c66d373f5103bf444d293dc47c488", element="4eb9a289-049d-44c2-bbfa-cf5e14429ed0")>清空
+2021-03-11 14:00:58,108 INFO [root] [page_login.py (page_input_verify_code:30] - [page_login]:输入的验证码是:8888
+2021-03-11 14:00:58,108 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '#verify_code'),默认超时时间为:30
+2021-03-11 14:00:58,117 INFO [root] [base.py (base_input:33] - [base]:正在对<selenium.webdriver.remote.webelement.WebElement (session="8b0c66d373f5103bf444d293dc47c488", element="4047137a-977d-4ecd-b6b3-6a74287a3d94")>清空
+2021-03-11 14:00:58,228 INFO [root] [page_login.py (page_click_login_btn:35] - [page_login]:点击登录按钮
+2021-03-11 14:00:58,228 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.J-login-submit')实行点击事件
+2021-03-11 14:00:58,228 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.J-login-submit'),默认超时时间为:30
+2021-03-11 14:00:58,269 INFO [root] [base.py (__init__:12] - [base]:正在获取初始化driver对象:<selenium.webdriver.chrome.webdriver.WebDriver (session="8b0c66d373f5103bf444d293dc47c488")>
+2021-03-11 14:01:06,655 INFO [root] [base.py (base_click:25] - [base]:正在对('partial link text', '我的订单')实行点击事件
+2021-03-11 14:01:06,655 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('partial link text', '我的订单'),默认超时时间为:30
+2021-03-11 14:01:06,795 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的账户-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:我的订单
+2021-03-11 14:01:10,568 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的订单 是否等于指定的title:我的订单
+2021-03-11 14:01:10,575 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.ps_lj')实行点击事件
+2021-03-11 14:01:10,576 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.ps_lj'),默认超时时间为:30
+2021-03-11 14:01:10,679 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的账户-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2021-03-11 14:01:10,700 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:我的订单 是否等于指定的title:订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2021-03-11 14:01:20,396 INFO [root] [base.py (base_get_title_handle:80] - 判断当前页面title:订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城 是否等于指定的title:订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+2021-03-11 14:01:20,407 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', "[src='/plugins/payment/cod/logo.jpg']")实行点击事件
+2021-03-11 14:01:20,408 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', "[src='/plugins/payment/cod/logo.jpg']"),默认超时时间为:30
+2021-03-11 14:01:20,479 INFO [root] [base.py (base_click:25] - [base]:正在对('css selector', '.button-confirm-payment')实行点击事件
+2021-03-11 14:01:20,479 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.button-confirm-payment'),默认超时时间为:30
+2021-03-11 14:01:25,720 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.erhuh>h3')获取文本
+2021-03-11 14:01:25,720 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.erhuh>h3'),默认超时时间为:30
+2021-03-11 14:01:25,762 INFO [root] [base.py (base_get_text:40] - [base]:正在对('css selector', '.erhuh>h3')获取文本
+2021-03-11 14:01:25,762 INFO [root] [base.py (base_find:17] - [base]:正在定位元素:('css selector', '.erhuh>h3'),默认超时时间为:30
