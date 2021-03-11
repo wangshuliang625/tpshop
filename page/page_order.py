@@ -43,6 +43,6 @@ class PageOrder(Base):
         self.page_click_my_cart()
         self.page_click_all_select()
         self.page_click_account()
-        sleep(5)
+        # sleep(5)
         self.page_find_person()
         self.page_click_submit_order()
